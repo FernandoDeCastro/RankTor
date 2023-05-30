@@ -1,0 +1,83 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+header {
+    background-color: 2px yellow;
+}
+nav.MenuLateral {
+    width: 300px;
+    height: 100%;
+    background-color: green;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 blue;
+}
+
+div.MenuLateral {
+    width: 100%;
+    padding-left: 10px;
+}
+
+div.MenuLateral > i {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.ItemMenu {
+    transition: .2s;
+}
+
+ul li.ItemMenu:hover {
+    background: blue;
+}
+
+ul li.ItemMenu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.ItemMenu a .text-link {
+    margin-left: 40px;
+}
+
+ul li.ItemMenu a .Icon {
+    font-size: 30px;
+}
+
+#index {
+    background-color: yellow;
+}
+
+#titulo {
+    text-align: center;
+    color: blue;
+}
+
+#cfun {
+    border: 2px black;
+}
+#apresentacao {
+    color: firebrick;
+    text-shadow: 10px;
+    background-color: black;
+}
